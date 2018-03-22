@@ -53,7 +53,7 @@ Retargeting ads effect?
   - `docker pull s80275/best-selling-products:v1.0.0`
 
 ### Run
-- display on console:
-`docker run --rm s80275/best-selling-products:v1.0.0 python /best_selling_products/main.py`
+- display on console
+  - `docker run --rm s80275/best-selling-products:v1.0.0 python /best_selling_products/main.py`
 - export CSV file
-`docker run --rm -v <your_output_dir>:/best-selling-products/output s80275/best-selling-products:v1.0.0 python /best_selling_products/main.py --export`
+  - `docker run --rm -v <your_output_dir>:/best-selling-products/output s80275/best-selling-products:v1.0.0 python /best_selling_products/main.py --export`
