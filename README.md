@@ -40,7 +40,7 @@ Retargeting ads effect?
 
 - Search all category pages hot rank products from the main page started.
 
-## Install
+## Setup
 ### Requirement
 
 - Docker 17.12.0+ on x86 arch
@@ -48,11 +48,12 @@ Retargeting ads effect?
 ### Docker Image
 
 - build
+  - `git clone https://github.com/ChienChingLee/best-selling-products.git`
   - `docker build -t s80275/best-selling-products:v1.0.0 .`
 - or just pull from docker hub
   - `docker pull s80275/best-selling-products:v1.0.0`
 
-### Run
+## Run
 - display on console
   - `docker run --rm s80275/best-selling-products:v1.0.0 python /best_selling_products/main.py`
 - export CSV file
